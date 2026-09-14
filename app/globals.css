@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-navy-900 antialiased;
+}
+
+::selection {
+  @apply bg-azure-500/20 text-navy-900;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-navy-50;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-navy-200 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-navy-300;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.text-gradient {
+  @apply bg-gradient-to-r from-azure-400 to-azure-200 bg-clip-text text-transparent;
+}
+
+.section-py {
+  @apply py-16 sm:py-20 lg:py-24;
+}
