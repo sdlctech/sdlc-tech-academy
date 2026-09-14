@@ -288,22 +288,22 @@ export const testimonials: Testimonial[] = [
       "Mock interviews and resume guidance made a huge difference. The mentors genuinely care about your career outcome, not just completing the syllabus.",
   },
   {
-    name: "Priya Sharma",
-    role: "Automation Test Engineer",
+    name: "Kupparaj",
+    role: "DevOps Engineer",
     rating: 4,
     feedback:
       "Well-structured curriculum with real-time projects. Session recordings helped me revise concepts at my own pace alongside a full-time job.",
   },
   {
-    name: "Rahul Verma",
-    role: "Python Developer",
+    name: "Mamatha",
+    role: "DevOps Engineer",
     rating: 5,
     feedback:
       "Loved how the course connected AI tools with everyday development work. It felt future-focused and directly applicable at my job.",
   },
   {
-    name: "Divya Menon",
-    role: "AIOps Specialist",
+    name: "Harinadh",
+    role: "DevOps Engineer",
     rating: 5,
     feedback:
       "A premium learning experience from enrollment to placement support. The community access has been valuable even after course completion.",
