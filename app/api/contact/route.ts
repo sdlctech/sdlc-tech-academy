@@ -1,6 +1,12 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
+// Gmail's SMTP handshake can take longer than Vercel's default 10s function
+// timeout, especially on a cold start — extend it so the response always
+// makes it back to the browser instead of the platform killing the function
+// after the email has already sent.
+export const maxDuration = 30;
+
 const NOTIFY_EMAIL = "info@sdlctechacademy.com";
 
 type ContactPayload = {
@@ -45,6 +51,9 @@ export async function POST(request: Request) {
         user: smtpUser,
         pass: smtpPassword,
       },
+      connectionTimeout: 15000,
+      greetingTimeout: 15000,
+      socketTimeout: 15000,
     });
 
     await transporter.sendMail({
