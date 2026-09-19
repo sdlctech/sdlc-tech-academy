@@ -13,9 +13,10 @@ export default function Contact() {
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    const form = event.currentTarget;
     setStatus("submitting");
 
-    const formData = new FormData(event.currentTarget);
+    const formData = new FormData(form);
     const payload = Object.fromEntries(formData.entries());
 
     try {
@@ -28,7 +29,7 @@ export default function Contact() {
       if (!response.ok) throw new Error("Request failed");
 
       setStatus("success");
-      event.currentTarget.reset();
+      form.reset();
     } catch {
       setStatus("error");
     }
