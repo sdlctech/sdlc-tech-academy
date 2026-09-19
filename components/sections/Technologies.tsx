@@ -9,7 +9,7 @@ export default function Technologies() {
         <SectionHeading
           eyebrow="Technologies We Cover"
           title="Hands-On With the Tools the Industry Actually Uses"
-          description="Our curriculum is mapped directly to the tools and platforms used by cloud, DevOps and AI teams today."
+          description="Our curriculum is mapped directly to the tools and platforms used by cloud and DevOps teams today."
         />
 
         <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">

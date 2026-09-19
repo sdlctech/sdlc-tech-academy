@@ -33,7 +33,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.05 }}
             className="font-display text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl"
           >
-            Master Cloud, DevOps &amp; AI Technologies with{" "}
+            Master Cloud &amp; DevOps Technologies with{" "}
             <span className="text-gradient">Real-Time Industry Experts</span>
           </motion.h1>
 

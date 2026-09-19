@@ -10,7 +10,7 @@ export default function Courses() {
         <SectionHeading
           eyebrow="Popular Courses"
           title="In-Demand Programs for Future-Ready Careers"
-          description="Practical, mentor-led programs across Cloud, DevOps, AI and Software Development — built around what employers are hiring for today."
+          description="Practical, mentor-led programs across Cloud and DevOps — built around what employers are hiring for today."
         />
 
         <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">

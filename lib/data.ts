@@ -9,9 +9,6 @@ import {
   ShieldCheck,
   Activity,
   Layers,
-  TestTubeDiagonal,
-  Code2,
-  Coffee,
   Globe,
   Video,
   FileText,
@@ -29,10 +26,9 @@ export const siteConfig = {
   name: "SDLC Tech Academy",
   shortName: "SDLC",
   tagline: "Learn from Real-Time Industry Experts",
-  altTagline:
-    "Cloud, DevOps, AI & Software Training for Future-Ready Professionals",
+  altTagline: "Cloud & DevOps Training for Future-Ready Professionals",
   description:
-    "SDLC Tech Academy offers 100% live online training in AWS, Azure, DevOps, DevSecOps, AIOps and Software Development, led by real-time industry experts with small batch sizes, real projects and dedicated interview preparation.",
+    "SDLC Tech Academy offers 100% live online training in AWS, Azure, DevOps, DevSecOps and AIOps, led by real-time industry experts with small batch sizes, real projects and dedicated interview preparation.",
   location: "Hyderabad, India",
   businessStatus: "MSME Registered",
   trainingMode: "100% Online Live Classes",
@@ -102,7 +98,7 @@ export const whyChooseUs: WhyChooseItem[] = [
     icon: Sparkles,
     title: "AI-Powered Learning",
     description:
-      "Learn how AI tools are transforming Cloud, DevOps, and Software Development.",
+      "Learn how AI tools are transforming Cloud and DevOps workflows.",
   },
 ];
 
@@ -162,34 +158,6 @@ export const courses: Course[] = [
     duration: "14-16 Weeks",
     level: "Advanced",
   },
-  {
-    icon: TestTubeDiagonal,
-    title: "Manual & Automation Testing",
-    description: "Industry-focused testing practices.",
-    duration: "8-10 Weeks",
-    level: "Beginner to Advanced",
-  },
-  {
-    icon: Code2,
-    title: "Python Development",
-    description: "Python fundamentals to advanced development.",
-    duration: "8-10 Weeks",
-    level: "Beginner to Advanced",
-  },
-  {
-    icon: Coffee,
-    title: "Java Development",
-    description: "Enterprise application development and backend engineering.",
-    duration: "10-12 Weeks",
-    level: "Beginner to Advanced",
-  },
-  {
-    icon: Globe,
-    title: "Web Development",
-    description: "Frontend and full-stack web development.",
-    duration: "10-12 Weeks",
-    level: "Beginner to Advanced",
-  },
 ];
 
 export type JourneyStep = {
@@ -248,13 +216,8 @@ export const techCategories: TechCategory[] = [
     items: ["Prometheus", "Grafana", "ELK", "CloudWatch"],
   },
   {
-    category: "AI & Automation",
-    items: ["Claude", "ChatGPT", "GitHub Copilot", "AI Agents", "AIOps Tools"],
-  },
-  { category: "Programming", items: ["Python", "Java", "JavaScript"] },
-  {
-    category: "Testing",
-    items: ["Selenium", "Manual Testing", "Automation Frameworks"],
+    category: "AIOps & Automation",
+    items: ["AI Agents", "AIOps Tools"],
   },
 ];
 
@@ -361,6 +324,7 @@ export const trainingPrograms = [
   { label: "AWS DevOps", href: "#courses" },
   { label: "DevSecOps", href: "#courses" },
   { label: "AIOps", href: "#courses" },
+  { label: "Multi-Cloud DevOps", href: "#courses" },
 ];
 
 export const socialLinks = [
